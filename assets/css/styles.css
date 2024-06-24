@@ -6,9 +6,9 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
+    box-sizing: content-box;
 }
 
 /* variables */
@@ -68,13 +68,20 @@ h5 {
 
 /* main content */
 
+main {
+    height: 94vh;
+    align-items: center;
+    
+}
+
 .main-content {
+    position: relative;
     width: 70%;
     margin-left: 48px;
 }
 
 .main-content h1 {
-    font-size: 20vh;
+    font-size: 18vh;
     width: 100%;
 }
 
@@ -89,7 +96,7 @@ h5 {
 /* footer content */
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
     cursor: pointer;
@@ -117,7 +124,7 @@ footer {
 
 .terms {
     height: 5vh;
-    position: fixed;
+    position: relative;
     display: block;
     text-align: center;
     bottom: 0;
