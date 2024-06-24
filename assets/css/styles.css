@@ -34,6 +34,7 @@ h5 {
     text-align: center;
     align-content: center;
     width: 100%;
+    padding: 20px;
 }
 
 .navbar ul {
@@ -48,7 +49,7 @@ h5 {
 
 .navbar ul .navlinks a {
     text-decoration: none;
-    color: black;
+    color: inherit;
     margin-inline: 24px;
     font-size: 14px;
 }
@@ -66,6 +67,16 @@ h5 {
     }
 }
 
+#project-nav:hover,
+#about-nav:hover,
+#contacts-nav:hover {
+    color: #ffffff;
+    background-color: #786ADE;
+    border-radius: 24px;
+    height: auto;
+}
+
+
 /* main content */
 
 main {
@@ -74,22 +85,22 @@ main {
     
 }
 
-.main-content {
+.content {
     position: relative;
     width: 70%;
     margin-left: 48px;
 }
 
-.main-content h1 {
+.content h1 {
     font-size: 18vh;
     width: 100%;
 }
 
-.main-content h3 {
+.content h3 {
     font-size: 36px;
 }
 
-.main-content h5 {
+.content h5 {
     font-size: 18px;
 }
 
@@ -150,8 +161,8 @@ footer {
 }
 
 .terms {
-    height: 5vh;
-    position: relative;
+    height: 4vh;
+    position: absolute;
     display: block;
     text-align: center;
     bottom: 0;
@@ -164,6 +175,6 @@ footer {
 
 .terms ul li {
     list-style: none;
-    font-size: 10px;
+    font-size: 12px;
     margin-inline: 10px;
 }
