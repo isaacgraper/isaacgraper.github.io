@@ -1,4 +1,4 @@
-## Isaac Kleimmann Graper
+# Isaac Kleimmann Graper
 
 <div style="display: flex; align-items: center;">
 
