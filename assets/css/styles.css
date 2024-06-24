@@ -33,6 +33,7 @@ h5 {
     align-items: center;
     text-align: center;
     align-content: center;
+    width: 100%;
 }
 
 .navbar ul {
