@@ -1,12 +1,11 @@
 # Meu portfolio
-
 ## Isaac Kleimmann Graper
 
 <div style="display: flex; align-items: center;">
 
-## [![Email](https://img.shields.io/badge/Email-isaac.graper%40gmail.com-white?logo=gmail)](mailto:isaac.graper@gmail.com)
-## [![LinkedIn](https://img.shields.io/badge/LinkedIn-isaac--graper-white?logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
-## [![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-green?logo=whatsapp)](https://wa.me/5547997754529)
+[![Email](https://img.shields.io/badge/Email-isaac.graper%40gmail.com-white?logo=gmail)](mailto:isaac.graper@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-isaac--graper-white?logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-green?logo=whatsapp)](https://wa.me/5547997754529)
 
 </div>
 
