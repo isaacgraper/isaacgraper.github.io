@@ -1,12 +1,8 @@
 # Isaac Kleimmann Graper
 
-<div style="display: flex; align-items: center;">
-
-[![Email](https://img.shields.io/badge/Email-isaac.graper%40gmail.com-white?logo=gmail)](mailto:isaac.graper@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-isaac--graper-white?logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-green?logo=whatsapp)](https://wa.me/5547997754529)
-
-</div>
+[![Email](https://img.shields.io/badge/Email-isaac.graper%40gmail.com-violet?logo=gmail)](mailto:isaac.graper@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-isaac--graper-violet?logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-violet?logo=whatsapp)](https://wa.me/5547997754529)
 
 📚 Estou me formando na PUC de Santa Catarina, em Joinville. Atualmente estou cursando a terceira fase do meu curso em Engenharia de Software. 
 
