@@ -1,0 +1,6 @@
+<style>
+a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Herda a cor do texto circundante (provavelmente branco no seu caso) */
+}
+</style>
