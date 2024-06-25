@@ -6,9 +6,12 @@
  */
 function scrollSuave(links, options = { behavior: 'smooth', block: 'start' }) {
     function scrollToSection(e) {
+
       e.preventDefault();
+
       const href = e.currentTarget.getAttribute('href');
       const section = document.querySelector(href);
+
       if (section) {
         section.scrollIntoView(options);
       } else {
@@ -25,5 +28,6 @@ function scrollSuave(links, options = { behavior: 'smooth', block: 'start' }) {
   
   const links = document.querySelectorAll('.navlinks a');
   scrollSuave(links);
+  
   const arrow = document.querySelector('#act-arrow');
   scrollSuave(arrow);
