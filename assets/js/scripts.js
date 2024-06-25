@@ -1,9 +1,3 @@
-/**
- * Função para adicionar comportamento de rolagem suave aos links internos.
- * @param {string} links - Seletor CSS dos links internos.
- * @param {object} options - Opções de rolagem suave (opcional). Padrão: { behavior: 'smooth', block: 'start' }.
- * @returns {undefined}
- */
 function scrollSmooth(links, options = { behavior: 'smooth', block: 'start' }) {
     function scrollToSection(e) {
       e.preventDefault();

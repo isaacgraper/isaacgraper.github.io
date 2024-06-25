@@ -4,7 +4,7 @@
 /* default */
 
 * {
-    padding: 0; 
+    padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
@@ -24,7 +24,9 @@ h5 {
     font-weight: 300;
 }
 
-/* navbar */
+.footer-follow-me a{
+    text-decoration: none;
+}
 
 .navbar {
     height: 16vh;
@@ -85,9 +87,36 @@ main {
 
 .content {
     position: relative;
-    width: 70%;
     margin-left: 48px;
 }
+
+.content::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -10rem;
+    width: 100%;
+    height: 600px;
+    background: url('../images/dark-blob.svg') no-repeat center center;
+}
+.content::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -15rem;
+    left: -15rem;
+    width: 100%;
+    height: 600px;
+    opacity: .5;
+    background: url('../images/light-blob.svg') no-repeat center center;
+}
+
+/* @media (max-width: 500px) {
+    .content::after {
+        bottom: -10rem;
+        left: -10rem;
+    }
+} */
 
 .content h1 {
     font-size: 18vh;
@@ -101,8 +130,6 @@ main {
 .content h5 {
     font-size: 18px;
 }
-
-/* arrow function */
 
 .arrow {
     width: 100%;
@@ -131,8 +158,44 @@ main {
     }
 }
 
-.footer-follow-me a{
-    text-decoration: none;
+/* projects content */
+
+#projects {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#project-1, 
+#project-2, 
+#project-3 {
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#project-1:hover, 
+#project-2:hover,
+#project-3:hover {
+    transform: scale(1.02);
+}
+
+#project-1 img, 
+#project-2 img, 
+#project-3 img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
 }
 
 /* footer content */
@@ -150,7 +213,10 @@ footer {
     height: 24vh;
     width: 100%;
     justify-content: space-evenly;
+    background-color: rgba(170, 141, 216, 0.5);
+    padding-top: 20px;
 }
+
 .footer-contact h4, 
 .footer-follow-me h4 {
     margin-bottom: 18px;
@@ -165,11 +231,9 @@ footer {
 }
 
 .terms {
-    height: 4vh;
-    position: absolute;
+    margin-top: 2rem;
     display: block;
     text-align: center;
-    bottom: 0;
 }
 
 .terms ul {
