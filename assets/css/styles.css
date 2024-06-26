@@ -93,6 +93,11 @@ main {
 .content {
     position: relative;
     margin-left: 48px;
+    user-select: none;
+}
+
+.content, h1, h2, h4 {
+    user-select: none;
 }
 
 .content::before {
@@ -145,7 +150,7 @@ main {
     transition: all .2s ease-in-out;
 }
 
-.arrow .line1, .line2 {
+.arrow .line-left, .line-right {
     background-color: black;
     width: 20px;
     height: 4px;
@@ -154,11 +159,11 @@ main {
 }
 
 .arrow:hover{
-    .line1 {
+    .line-left {
         transform: rotate(28deg);
     }
 
-    .line2 {
+    .line-right {
         transform: rotate(-28deg);
     }
 }
