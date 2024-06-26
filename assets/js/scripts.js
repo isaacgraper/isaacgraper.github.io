@@ -33,10 +33,11 @@ function scrollSmooth(links, options = { behavior: 'smooth', block: 'start' }) {
   anime({
     targets: '.line-right',
     rotate: '-28deg',
+    duration: 400,
   });
 
   anime({
     targets: '.line-left',
     rotate: '28deg',
-    
+    duration: 400,
   });
