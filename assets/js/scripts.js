@@ -30,12 +30,13 @@ anime({
   opacity: [0, 1],
 });
 
-anime({
-  targets: ".line-right",
-  rotate: "-28deg",
-});
+  anime({
+    targets: '.line-right',
+    rotate: '-28deg',
+  });
 
-anime({
-  targets: ".line-left",
-  rotate: "28deg",
-});
+  anime({
+    targets: '.line-left',
+    rotate: '28deg',
+    
+  });
