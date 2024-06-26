@@ -54,7 +54,7 @@ h5 {
     font-size: 14px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 768px) {
     .navbar ul {
         margin: 0;
         text-align: center;
@@ -72,15 +72,20 @@ h5 {
     transition: 0.3s;
 }
 
-#project-nav:hover,
-#about-nav:hover,
-#contacts-nav:hover {
+.nav-item:hover {
     color: #ffffff;
     background-color: #786ADE;
-    border-radius: 10%;
+    border-radius: 15px;
     height: auto;
+
+    li {
+        border-radius: 20%;
+    }
 }
 
+.nav-item::after{
+    background-color: #fff;
+}
 
 /* main content */
 
