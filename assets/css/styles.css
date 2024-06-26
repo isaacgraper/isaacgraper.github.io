@@ -116,6 +116,7 @@ h4 {
   height: 600px;
   background: url("../images/dark-blob.svg") no-repeat center center;
 }
+
 .content::after {
   content: "";
   position: absolute;
@@ -128,6 +129,10 @@ h4 {
   background: url("../images/light-blob.svg") no-repeat center center;
 }
 
+.content::after,
+.content::before {
+  filter: blur(50%);
+}
 /* @media (max-width: 500px) {
     .content::after {
         bottom: -10rem;
@@ -148,6 +153,8 @@ h4 {
   font-size: 18px;
 }
 
+/* arrow function */
+
 .arrow {
   width: 100%;
   height: 16vh;
@@ -167,6 +174,40 @@ h4 {
   margin: -2px;
   transition: all 0.2s ease-in-out;
 }
+
+/* */
+
+.project-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  height: 50vh;
+  /* background-color: #fff; */
+}
+
+#project-2{
+    background-color: #786ade;
+    opacity: 0.2;
+}
+
+#project-1,
+#project-3{
+    background-color: #aa8dd8;
+    opacity: 0.8;
+}
+
+.project-image {
+    padding-top: 1rem;
+    width: 50%; 
+    height: 14rem;
+    object-fit: cover;
+  }
 
 /* footer content */
 
