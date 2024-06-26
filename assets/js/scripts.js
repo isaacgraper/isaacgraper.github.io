@@ -22,21 +22,3 @@ scrollSmooth(links);
 
 const arrow = document.querySelector("#act-arrow");
 scrollSmooth(arrow);
-
-anime({
-  targets: ".content",
-  translateX: [-80, 0],
-  easing: "easeInOutQuad",
-  opacity: [0, 1],
-});
-
-  anime({
-    targets: '.line-right',
-    rotate: '-28deg',
-  });
-
-  anime({
-    targets: '.line-left',
-    rotate: '28deg',
-    
-  });
