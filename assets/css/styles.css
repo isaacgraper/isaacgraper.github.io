@@ -99,6 +99,7 @@ main {
     position: relative;
     margin-left: 48px;
     user-select: none;
+    z-index: -1;
 }
 
 .content, h1, h2, h4 {
@@ -151,8 +152,10 @@ main {
     height: 16vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 12rem auto 5rem;
     transition: all .2s ease-in-out;
+    z-index: 4;
 }
 
 .arrow .line-left, .line-right {
@@ -163,14 +166,10 @@ main {
     transition: all .2s ease-in-out;
 }
 
-.arrow:hover{
-    .line-left {
-        transform: rotate(28deg);
-    }
+.line-left {
+}
 
-    .line-right {
-        transform: rotate(-28deg);
-    }
+.line-right {
 }
 
 /* footer content */
