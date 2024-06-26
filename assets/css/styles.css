@@ -191,23 +191,23 @@ h4 {
   /* background-color: #fff; */
 }
 
-#project-2{
-    background-color: #786ade;
-    opacity: 0.2;
+#project-2 {
+  background-color: #786ade;
+  opacity: 0.2;
 }
 
 #project-1,
-#project-3{
-    background-color: #aa8dd8;
-    opacity: 0.8;
+#project-3 {
+  background-color: #aa8dd8;
+  opacity: 0.8;
 }
 
 .project-image {
-    padding-top: 1rem;
-    width: 50%; 
-    height: 14rem;
-    object-fit: cover;
-  }
+  padding-top: 1rem;
+  width: 50%;
+  height: 14rem;
+  object-fit: cover;
+}
 
 /* footer content */
 
