@@ -188,18 +188,7 @@ h4 {
   margin: 1rem 0 1rem 0;
   width: 100%;
   height: 50vh;
-  /* background-color: #fff; */
-}
-
-#project-2 {
-  background-color: #786ade;
-  opacity: 0.2;
-}
-
-#project-1,
-#project-3 {
-  background-color: #aa8dd8;
-  opacity: 0.8;
+  user-select: none;
 }
 
 .project-image {
@@ -209,6 +198,21 @@ h4 {
   object-fit: cover;
 }
 
+
+.project h3 {
+  font-size: 2rem;
+}
+
+.project p {  
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.project a {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
 /* footer content */
 
 footer {
@@ -253,4 +257,9 @@ footer {
   list-style: none;
   font-size: 12px;
   margin-inline: 10px;
+}
+
+.conteudo {
+  width: 100%;
+  height: 100vh;
 }
