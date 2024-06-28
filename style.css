@@ -146,6 +146,7 @@ ul {
 
 .main p {
     max-width: 600px;
+    font-size: 1.1rem;
 }
 
 
@@ -242,13 +243,18 @@ ul {
     width: 100%;
 }
 
+.outer-footer {
+    margin: 0 auto;
+    max-width: 850px;
+}
+
 .footer {
     display: flex;
     position: relative;
     background-color: #fff;
     align-content: top;
-    justify-content: space-around;
-    padding: 1rem 0;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
     border-bottom: 1px solid;
     margin: 0 2rem;
 }
