@@ -60,7 +60,7 @@ animateLoop();
 
 
 function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 2)) + min;
 }
 
 function animateBlob(target) {
@@ -73,14 +73,14 @@ function animateBlob(target) {
             return getRandomInt(-100, 100);
         },
         duration: () => {
-            return getRandomInt(2000, 4000);
+            return getRandomInt(2000, 3600);
         },
-        easing: 'easeInOutSine',
+        easing: 'easeInOutQuad',
         complete: () => {
             animateBlob(target);
         }
     });
 }
 
-animateBlob('.blob-light');
-animateBlob('.blob-dark');
+animateBlob('.dark-circle');
+animateBlob('.light-circle');
