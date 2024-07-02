@@ -23,47 +23,12 @@ async function animateLoop() {
 
 animateLoop();
 
-// //Blob
-// anime({
-//     targets: '.blob-light',
-//     translateX: [
-//         { value: -20, duration: 2000 },
-//         { value: 20, duration: 2000 }
-//     ],
-//     translateY: [
-//         { value: -10, duration: 2000 },
-//         { value: 10, duration: 2000 }
-//     ],
-//     easing: 'easeInOutSine',
-//     loop: true,
-//     direction: 'alternate'
-// });
-
-// anime({
-//     targets: '.blob-dark',
-//     translateX: [
-//         { value: 100, duration: 500 },
-//         { value: -100, duration: 500 },
-//         { value: 100, duration: 500 },
-//         { value: -100, duration: 500 }
-//     ],
-//     translateY: [
-//         { value: 50, duration: 500 },
-//         { value: -50, duration: 500 },
-//         { value: 50, duration: 500 },
-//         { value: -50, duration: 500 }
-//     ],
-//     easing: 'easeInOutSine',
-//     loop: true,
-//     direction: 'alternate'
-// });
-
-
+// circle animation
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 2)) + min;
 }
 
-function animateBlob(target) {
+function animateCircle(target) {
     anime({
         targets: target,
         translateX: () => {
@@ -77,10 +42,32 @@ function animateBlob(target) {
         },
         easing: 'easeInOutQuad',
         complete: () => {
-            animateBlob(target);
+            animateCircle(target);
         }
     });
 }
 
-animateBlob('.dark-circle');
-animateBlob('.light-circle');
+animateCircle('.dark-circle');
+animateCircle('.light-circle');
+
+// page animation
+
+anime({
+    targets: '.main .title',
+    translateX: [
+        -250,
+        0
+    ],
+    duration: 1000,
+    easing: 'easeInOutSine', 
+})
+
+anime({
+    targets: 'p',
+    translateX: [
+        -300,
+        0
+    ],
+    duration: 1000,
+    easing: 'easeInOutSine', 
+})
