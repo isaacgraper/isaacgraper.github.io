@@ -53,12 +53,12 @@ animateCircle('.light-circle');
 // page animation
 
 anime({
-    targets: '.main .title',
+    targets: '.title',
     translateX: [
         -250,
         0
     ],
-    duration: 1000,
+    duration: 500,
     easing: 'easeInOutSine', 
 })
 
@@ -68,6 +68,6 @@ anime({
         -300,
         0
     ],
-    duration: 1000,
+    duration: 400,
     easing: 'easeInOutSine', 
 })
